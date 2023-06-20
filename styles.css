@@ -1,0 +1,143 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px;
+    border-color: black;
+    background-color: rgb(231, 225, 225);
+    color:black;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+.skills{
+    color:white;
+    text-align: left;
+}
+.paragraph{
+    font-size: 15px;
+}
+#pic{
+    width: 2000px;
+    height: auto;
+    border: 20px;
+    border-color: rgb(0, 0, 0);
+    opacity: 50%;
+    
+}
+#logo{
+    width: 100px;
+    height: auto;
+    /* margin-right:1600px; */
+    /* margin-top: 500px; */
+    vertical-align: bottom;
+    border:3px solid black;
+    vertical-align: top;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center; 
+    /* aligns your flexbox items */
+    align-items: center;
+    align-content: center;
+    /* to do: create another flex containter that is rows with text under images */
+}
+.item{
+    max-height:300px;
+    min-width: fit-content; 
+    margin: 50px;
+    border: 3px solid #030303;
+
+}
+.item1{
+    border-color: red;
+}
+.item3{
+    border-color: rgb(163, 99, 3);
+}
+img{
+    height: 300px;
+    width:auto;
+}
+.text{
+    margin-left: 850px;
+    margin-top: 200px;
+    background-color: rgb(116, 119, 128);
+    color: black;
+    font-size: 35px;
+    border: 3px solid black;
+}
+a{
+    background-color:rgb(116, 119, 128);
+}
+.flexbox-container2{
+    display:flex;
+    border: 3px solid black;
+    justify-content:center; 
+    /* justify's content according to the container */
+    height: 150px;
+    margin-top:170px;
+    background-color: cadetblue;
+
+}
+.task{
+        background-color: blue;  
+        color: antiquewhite;
+        margin:30px;
+        min-width: 75px;
+        max-height: 40px;
+        border:3px solid black;
+        
+}
+.task1{
+    background-color: red;
+    align-items:center;
+    align-content: center;
+    border: 3px solid black;
+}
+.task2{
+    background-color:black;
+}
+.task3{
+
+}
+#gym{
+    font-size: 20px;
+    text-align: center;
+    background-color: red ;
+}
+#gym1{
+    font-size: 20px;
+    background-color: #030303;
+    color:white;
+}
+#gym2{
+    font-size: 20px;
+    color:yellow;
+    background-color:blue;
+}
+select{
+    margin-top: 8px;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    margin: 200px;
+    margin-top: 100px;
+    font-size: 10px;
+    min-width: 200px;
+    font-size: 20px;
+    margin-left:110px;
+    margin-bottom: 30px;
+}
+.h0{
+    color:red;
+}
+.h2{
+    color:brown;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(33, 43, 12)
+}
